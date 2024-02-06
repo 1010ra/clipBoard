@@ -1,0 +1,345 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   
+
+}
+
+.mod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1,
+p {
+    margin-left: 12px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+
+.nuit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.btn1,
+.btn2 {
+    cursor: pointer;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 8px;
+    margin: 20px;
+    border-right: 7px;
+    border-radius: 20px;
+    font-weight: 4px;
+    background-color: rgba(225, 240, 235, 0.95);
+}
+
+.btn1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn2 {
+    background-color: hsl(233, 100%, 69%);
+
+}
+
+.ok {
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.phg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.for {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.graphic {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: #eef3f7;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+}
+
+.nom {
+    height: 50px;
+    margin-left: -80px;
+
+}
+
+.meet {
+
+    display: flex;
+    justify-content: start;
+    height: 20px;
+    margin-right: 190px;
+    margin: 3rem;
+
+
+}
+
+.meet div {
+    margin-right: 70px;
+
+}
+
+.meet div a {
+    margin-top: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.meet div a:hover {
+    color: aqua;
+}
+
+.rid {
+    display: flex;
+
+}
+
+.rid i {
+    margin: 10px;
+}
+
+.rid i:hover {
+    color: aqua;
+}
+
+.conteneur {
+    width: 1440px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 0;
+
+
+
+}
+
+.modif {
+    background-image: url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.classe1 h4 {
+    margin: 0;
+    margin-right: 25px;
+
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+p1 {
+    color: hsl(201, 11%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+footer .rid {
+    margin-left: 400px;
+
+}
+
+@media screen and(max-width:1440px) {
+    .conteneur {
+        width: 18px;
+    }
+   
+
+    .section3 img {
+        width: 250px;
+    }
+
+    .section3 h4 {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .graphic {
+        width: 20px;
+    }
+
+    footer .nom {
+        padding-left: 12px;
+    }
+
+    .meet div {
+        margin-right: 12px;
+    }
+
+    .for {
+        width: 300px;
+    }
+
+    .rid {
+        margin-right: 12px;
+        margin-bottom: 60%;
+    }
+}
+
+@media only screen and (max-width: 375px)  {
+    .conteneur{
+        width: 100%;
+        margin: 0px;
+        padding: 0px 10px;
+        overflow-x: scroll;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    .section111 {
+        width: 90%;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+
+    .section111 p {
+        padding: 0px 10px;
+    }
+
+    .nuit {
+        flex-direction: column;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hello {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .graphic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ok {
+        width: 200px;
+    }
+
+    .for {
+        width: 200px;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    .meet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nom {
+       
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer .rid {
+        margin-left: 60px;
+    }
+
+    footer .nom {
+       margin-left: 50%;
+       margin-bottom: 5%;
+    }
+
+    footer.meet {
+        margin-left: 50px;
+    }
+    .un{
+        margin-left: 40%;
+
+    }
+    
+}
